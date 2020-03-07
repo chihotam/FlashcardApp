@@ -24,6 +24,14 @@
         android:visibility="invisible" />
 
     <ImageView
+        android:id="@+id/editButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="500dp"
+        android:src="@mipmap/edit_foreground" />
+
+    <ImageView
         android:id="@+id/createButton"
         android:layout_width="80dp"
         android:layout_height="80dp"
