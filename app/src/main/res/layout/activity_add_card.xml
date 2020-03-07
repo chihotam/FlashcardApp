@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCardActivity">
+
+    <EditText
+        android:id="@+id/editQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:hint="Enter question here"
+        android:inputType="textMultiLine"/>
+
+    <EditText
+        android:id="@+id/editAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/editQuestion"
+        android:hint="Enter answer here"
+        android:inputType="textMultiLine"/>
+
+    <ImageView
+        android:id="@+id/saveButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="500dp"
+        android:src="@mipmap/save_foreground"/>
+
+    <ImageView
+        android:id="@+id/cancelButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="500dp"
+        android:src="@mipmap/cancel_foreground"/>
+</RelativeLayout>

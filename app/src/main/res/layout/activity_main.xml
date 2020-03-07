@@ -18,11 +18,16 @@
         android:id="@+id/answer"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_marginTop="-200dp"
-        android:layout_below="@id/question"
         android:gravity="center"
         android:text="Barack Obama"
         android:textSize="40sp"
         android:visibility="invisible" />
 
+    <ImageView
+        android:id="@+id/createButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="500dp"
+        android:src="@mipmap/create_foreground" />
 </RelativeLayout>
