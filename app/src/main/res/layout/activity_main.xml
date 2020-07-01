@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:gravity="center"
-        android:text="Who is the 44th President of the United States?"
+        android:text=""
         android:textSize="40sp"/>
 
     <TextView
@@ -19,23 +19,39 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:gravity="center"
-        android:text="Barack Obama"
+        android:text=""
         android:textSize="40sp"
-        android:visibility="invisible" />
+        android:visibility="invisible"/>
 
     <ImageView
         android:id="@+id/editButton"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="500dp"
-        android:src="@mipmap/edit_foreground" />
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="430dp"
+        android:src="@mipmap/edit_foreground"/>
 
     <ImageView
         android:id="@+id/createButton"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginLeft="280dp"
-        android:layout_marginTop="500dp"
-        android:src="@mipmap/create_foreground" />
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="430dp"
+        android:src="@mipmap/create_foreground"/>
+
+    <ImageView
+        android:id="@+id/nextButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="270dp"
+        android:src="@mipmap/next_foreground"/>
+
+    <ImageView
+        android:id="@+id/deleteButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="270dp"
+        android:src="@mipmap/delete_foreground"/>
 </RelativeLayout>
