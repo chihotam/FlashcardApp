@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
 
         findViewById(R.id.createButton).setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View v) { 
                 Intent intent = new Intent(MainActivity.this, AddCardActivity.class);
                 MainActivity.this.startActivityForResult(intent, 100);
                 findViewById(R.id.question).setVisibility(View.VISIBLE);
